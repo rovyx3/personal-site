@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /* 90px = 562.5% = 5.625em (1em = 100% = 16px),   px-static, % & em - inherited  (em=rem, rem-static)*/
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-bottom-color: silver;
+  border-bottom-style: dotted;
+  border-bottom-width: 10px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  width: 5%;
+  margin: 100px auto 75px auto;
+}
+
+a {
+  color: #11999E;
+  font-style: normal;
+}
+
+a:hover {
+  color: #ffd571;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding: 40px;
+  color: white;
+}
+
+.code {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.footer-link {
+  font-weight: bold;
+  margin: 20px;
+}
+
+.get-in-touch {
+  margin-bottom: 50px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.property {
+  margin-top: 50px;
+}
+
+.scream {
+  border-radius: 100%;
+  margin-top: 50px;
+  width: 15%;
+}
+
+.skill-row {
+  text-align: left;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.student {
+  color: #66BFBF;
+  font-size: 1.75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.swim {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #CFFFFE;
+  padding-top: 100px;
+  position: relative;
+}
+
+.btn {
+	box-shadow: 0 0 0 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:20px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+  margin: 30px 50px 60px 50px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
